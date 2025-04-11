@@ -1,7 +1,8 @@
-public class Ola { 
+import javax.swing.JOptionPane;
+
+public class Ola {
     public static void main(String[] args) {
         //System.out.println("Boa Tarde a Todos!");
-        JOptionsPane.ShowMessageDialog(parentComponent, "Boa Tarde a Todos!", "Ola");
+        JOptionPane.showMessageDialog(null, "Boa Tarde a Todos!");
     }
-    
-} 
+}
